@@ -1,0 +1,30 @@
+-----latecall--------
+1. kill service - tested
+2. restart system- tested
+3. pre script executed - tested
+4. main script executed - tested
+5. latecall shuts down itself after its task - no - tbd
+6. logs going to var - no - tbd
+7. unistall working - 
+
+-----tasks---------
+//---DONE----
+//implement functions in this to make code more lean -- done
+//use data in file writing + finalize code -- done
+//make executable installed as a systemd service + run at boot + run after crash -- done
+//setup a pre-execution point and a gap between two : - done
+//setup singleton execution - only one execution of latecall per machine- done
+//test its working after changes including as a service - done
+//implement configure, make , install, uninstall - done
+
+
+//TODO :
+//divert logs to some file - currently get logs using 'journalctl -eu latecall'
+//disable and stop service on work done.
+//host code on github and do uat on local environment
+//-------
+//try to remove this hardcoding of sh files path - use a system path - done
+//make a dpkg/apt package so that it can be installed rather than standalone run
+//- http://www.king-foo.com/2011/11/creating-debianubuntu-deb-packages/
+//implement fail-safe
+//host package on some reputed repo
