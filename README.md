@@ -18,10 +18,10 @@ sudo systemctl start latecall
 
 > Location : /usr/local/etc/latecall.ini
 
-gap - gap between pre and main script execution (in hours)
-time - time to execute main script (in hours)
-preScript - shell script to execute {gap} hours before main shell script execution
-script - main shell script to execute after {time} hours
+1. gap - gap between pre and main script execution (in hours)
+2. time - time to execute main script (in hours)
+3. preScript - shell script to execute {gap} hours before main shell script execution
+4. script - main shell script to execute after {time} hours
 
 ## Meta
 
