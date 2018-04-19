@@ -10,9 +10,18 @@ git clone https://github.com/humblewolf/latecall
 cd latecall
 make all
 sudo make install
-<change config file at /usr/local/etc/latecalll.ini as per your prefrences>
+<change config file at /usr/local/etc/latecall.ini as per your prefrences>
 sudo systemctl start latecall
 ```
+
+## Config file
+
+> Location : /usr/local/etc/latecall.ini
+
+gap - gap between pre and main script execution (in hours)
+time - time to execute main script (in hours)
+preScript - shell script to execute {gap} hours before main shell script execution
+script - main shell script to execute after {time} hours
 
 ## Meta
 

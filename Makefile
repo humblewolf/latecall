@@ -40,10 +40,12 @@ install: latecall
 	cp data/latecall.ini /usr/local/etc/latecall.ini
 	cp data/def_prelc.sh /usr/local/share/lc/def_prelc.sh
 	cp data/def_lc.sh /usr/local/share/lc/def_lc.sh
+	cp data/sendMail2.py /usr/local/share/lc/sendMail2.py
 	cp data/latecall.service /etc/systemd/system/latecall.service
 	chmod 777 /usr/local/bin/latecall
 	chmod 777 /usr/local/share/lc/def_prelc.sh
 	chmod 777 /usr/local/share/lc/def_lc.sh
+	chmod 777 /usr/local/share/lc/sendMail2.py
 	chmod 444 /usr/local/etc/latecall.ini
 	chmod 444 /etc/systemd/system/latecall.service
 	systemctl enable latecall
