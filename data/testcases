@@ -16,12 +16,12 @@
 //setup singleton execution - only one execution of latecall per machine- done
 //test its working after changes including as a service - done
 //implement configure, make , install, uninstall - done
-
+//disable and stop service on work done. - done
+//host code on github - done
 
 //TODO :
 //divert logs to some file - currently get logs using 'journalctl -eu latecall'
-//disable and stop service on work done.
-//host code on github and do uat on local environment
+//do uat on local environment
 //-------
 //try to remove this hardcoding of sh files path - use a system path - done
 //make a dpkg/apt package so that it can be installed rather than standalone run
